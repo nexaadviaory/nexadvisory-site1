@@ -48,7 +48,7 @@ export default function Hero({ scrollY }: HeroProps) {
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <button onClick={() => scrollToSection('cta')} className="group relative px-8 py-4 bg-gradient-to-r from-blue-600 to-cyan-600 rounded-full font-semibold text-lg overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-[0_0_40px_rgba(59,130,246,0.6)]">
-            <span className="relative z-10">Book a Discovery Call</span>
+            <span className="relative z-10">Book a Free Discovery Call</span>
             <div className="absolute inset-0 bg-gradient-to-r from-cyan-600 to-blue-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
           </button>
           <button onClick={() => scrollToSection('services')} className="px-8 py-4 border-2 border-blue-500/50 rounded-full font-semibold text-lg backdrop-blur-sm hover:bg-blue-500/10 hover:border-blue-400 transition-all duration-300 hover:scale-105">
