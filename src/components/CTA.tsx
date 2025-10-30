@@ -73,7 +73,7 @@ export default function CTA() {
         </button>
 
         <div className="mt-8 text-gray-400 text-sm">
-          No commitment required • Free 30-minute strategy session
+          No commitment required • Free 15-minute Discovery call
         </div>
       </div>
 
