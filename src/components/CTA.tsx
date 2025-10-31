@@ -64,13 +64,18 @@ export default function CTA() {
           Join the leading organizations in MENA who are already leveraging AI to drive unprecedented growth and innovation.
         </p>
 
-        <button className="group relative px-10 py-5 bg-gradient-to-r from-blue-600 to-cyan-600 rounded-full font-semibold text-xl overflow-hidden transition-all duration-300 hover:scale-110 hover:shadow-[0_0_60px_rgba(59,130,246,0.8)]">
-          <span className="relative z-10 flex items-center gap-2">
-            Schedule a Free Consultation
-            <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
-          </span>
-          <div className="absolute inset-0 bg-gradient-to-r from-cyan-600 to-blue-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-        </button>
+        <a
+  href="https://calendar.app.google/Dt8bDhRZTqVM7AVH6"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="group relative px-10 py-5 bg-gradient-to-r from-blue-500 to-blue-700 text-white font-semibold rounded-lg overflow-hidden"
+>
+  <span className="relative z-10 flex items-center">
+    Book a Free 15-Min Discovery Call
+    <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform duration-300" />
+  </span>
+  <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-blue-800 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+</a>
 
         <div className="mt-8 text-gray-400 text-sm">
           No commitment required • Free 15-minute Discovery call
