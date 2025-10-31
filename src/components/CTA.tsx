@@ -68,7 +68,7 @@ export default function CTA() {
   href="https://calendar.app.google/Dt8bDhRZTqVM7AVH6"
   target="_blank"
   rel="noopener noreferrer"
-  className="group relative inline-flex items-center justify-center px-10 py-5 bg-gradient-to-r from-blue-500 to-blue-700 text-white font-semibold rounded-lg overflow-hidden"
+  className="group relative inline-flex items-center justify-center px-10 py-5 bg-gradient-to-r from-blue-500 to-blue-700 text-white font-semibold rounded-full overflow-hidden"
 >
   <span className="relative z-10 flex items-center">
     Book a Free 15-Min Discovery Call
